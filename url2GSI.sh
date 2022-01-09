@@ -124,6 +124,7 @@ fi
 
 ZIP_NAME="$PROJECT_DIR/input/dummy"
 if [ $MOUNTED == false ]; then
+    echo "$URL"
     if [[ "$URL" == "http"* ]]; then
         # URL detected
         RANDOMM=$(echo $RANDOM)
